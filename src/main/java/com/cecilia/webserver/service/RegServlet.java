@@ -1,7 +1,7 @@
-package com.webserver.service;
+package com.cecilia.webserver.service;
 
-import com.webserver.http.HttpRequest;
-import com.webserver.http.HttpResponse;
+import com.cecilia.webserver.http.HttpRequest;
+import com.cecilia.webserver.http.HttpResponse;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,9 +10,6 @@ import java.util.Arrays;
 
 /**
  * 当前类用于处理用户注册业务
- *
- * @author 黄先生
- * @create 2020/3/5 - 16:21
  */
 public class RegServlet {
 

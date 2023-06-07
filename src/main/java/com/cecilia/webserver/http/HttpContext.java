@@ -1,4 +1,4 @@
-package com.webserver.http;
+package com.cecilia.webserver.http;
 
 import org.dom4j.Document;
 import org.dom4j.Element;
@@ -11,9 +11,6 @@ import java.util.Map;
 
 /**
  * 该类保存所有有关HTTP协议规定的内容
- *
- * @author 黄先生
- * @create 2020/3/5 - 11:18
  */
 public class HttpContext {
 

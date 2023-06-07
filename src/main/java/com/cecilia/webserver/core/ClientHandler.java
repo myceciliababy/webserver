@@ -1,10 +1,10 @@
-package com.webserver.core;
+package com.cecilia.webserver.core;
 
-import com.webserver.http.EmptyRequestException;
-import com.webserver.http.HttpRequest;
-import com.webserver.http.HttpResponse;
-import com.webserver.service.LoginServlet;
-import com.webserver.service.RegServlet;
+import com.cecilia.webserver.http.EmptyRequestException;
+import com.cecilia.webserver.http.HttpRequest;
+import com.cecilia.webserver.http.HttpResponse;
+import com.cecilia.webserver.service.LoginServlet;
+import com.cecilia.webserver.service.RegServlet;
 
 import java.io.File;
 import java.io.IOException;

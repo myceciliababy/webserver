@@ -1,3 +1,8 @@
+# WebServer
+## 简介
+这是一个网络容器，模拟实现 tomcat 服务器工作过程的一个简单 Demo
+
+## 实现思路
 WebServer_V2:本版本开始完成解析请求的工作
 
     HTTP协议要求客户端(浏览器)与服务端之间的交互方式必须采取一问一答的模式,即:客户端发送请求,服务端处理后予以响应
@@ -14,7 +19,7 @@ WebServer_V3:本版本继续完成解析请求的工作
     解析请求时,我们将客户端发送的请求最终以一个HttpRequest的实例表示出来,以便后续处理请求时,可以通过该对象获取请求中各个部分内容
 
     如何实现:
-        1.新建一个包:com.webserver.http,该包用于存放所有与HTTP协议有关的内容
+        1.新建一个包:com.xiaoqiang.webserver.http,该包用于存放所有与HTTP协议有关的内容
         2.在http包中新建类:HttpRequest(请求对象)
         3.在ClientHandler中处理流程中完成第一步:解析请求,该工作实际就是实例化HttpRequest对象,具体的解析工作交给HttpRequest自行完成
         4.完成HttpRequest构造方法,在其中解析

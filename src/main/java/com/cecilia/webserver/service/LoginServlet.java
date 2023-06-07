@@ -1,16 +1,12 @@
-package com.webserver.service;
+package com.cecilia.webserver.service;
 
-import com.webserver.http.HttpRequest;
-import com.webserver.http.HttpResponse;
+import com.cecilia.webserver.http.HttpRequest;
+import com.cecilia.webserver.http.HttpResponse;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
-/**
- * @author 黄先生
- * @create 2020/3/5 - 17:13
- */
 public class LoginServlet {
 
     public void service(HttpRequest req, HttpResponse res) {

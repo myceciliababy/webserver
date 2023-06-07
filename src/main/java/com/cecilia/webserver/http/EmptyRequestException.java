@@ -1,11 +1,8 @@
-package com.webserver.http;
+package com.cecilia.webserver.http;
 
 /**
  * 空请求异常
  * 当HttpRequest解析请求时发现此请求为空请求时会抛出此异常
- *
- * @author 黄先生
- * @create 2020/3/5 - 13:50
  */
 public class EmptyRequestException extends Exception {
 

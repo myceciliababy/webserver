@@ -1,4 +1,4 @@
-package com.webserver.http;
+package com.cecilia.webserver.http;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -13,9 +13,6 @@ import java.util.Set;
 /**
  * 响应对象,该对象的每个实例用于处理客户端发送请求行服务端发送给客户端的HTTP响应
  * 一个响应内容由三部分构成:状态行、响应头、响应正文
- *
- * @author 黄先生
- * @create 2020/3/1 - 13:09
  */
 public class HttpResponse {
 

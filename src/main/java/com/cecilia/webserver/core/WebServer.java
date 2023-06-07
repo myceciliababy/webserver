@@ -1,4 +1,4 @@
-package com.webserver.core;
+package com.cecilia.webserver.core;
 
 import java.net.ServerSocket;
 import java.net.Socket;
