@@ -19,7 +19,7 @@ WebServer_V3:本版本继续完成解析请求的工作
     解析请求时,我们将客户端发送的请求最终以一个HttpRequest的实例表示出来,以便后续处理请求时,可以通过该对象获取请求中各个部分内容
 
     如何实现:
-        1.新建一个包:com.xiaoqiang.webserver.http,该包用于存放所有与HTTP协议有关的内容
+        1.新建一个包:com.cecilia.webserver.http,该包用于存放所有与HTTP协议有关的内容
         2.在http包中新建类:HttpRequest(请求对象)
         3.在ClientHandler中处理流程中完成第一步:解析请求,该工作实际就是实例化HttpRequest对象,具体的解析工作交给HttpRequest自行完成
         4.完成HttpRequest构造方法,在其中解析
