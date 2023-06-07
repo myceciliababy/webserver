@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>我的首页</title>
+</head>
+<body>
+<center>
+    <!--
+        页面中经常会加载其他的资源,而加载的资源要指定对应的路径
+        这里的路径可以使用相对路径"./",而这里的当前目录是被浏览器理解的,认为是当前页面所在的目录
+        比如,我们请求当前页面输入的路径:http://localhost:8088/myweb/index.html
+        那么浏览器认为当前目录是:http://localhost:8088/myweb/
+        因此下面图片指定的"./logo.png"实际路径为:http://localhost:8088/myweb/logo.png
+     -->
+    <img src="./logo.png" /><br>
+    <input type="text" size="32" />
+    <input type="button" value="百度一下" />
+</center>
+</body>
+</html>
